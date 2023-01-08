@@ -1,0 +1,175 @@
+@charset "UFC-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+div {
+    background-color: #06391d;
+    padding: 30px 0px;
+    margin: 0px;
+}
+
+div > iframe {
+    margin: auto;
+    display: block;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-indent: 1.5em;
+    text-justify: auto;
+    line-height: 1.5em;
+}
+
+body {
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+header {
+    background-image: linear-gradient(to top, #06391d,#49daaf);
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.345);
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    color: white; 
+    font-size: 2.5em;
+    font-weight: normal;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.273);
+}
+
+header > h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
+    color: white;
+    margin: 30px;
+    font-weight: normal;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.273);
+}
+
+header > nav > a {
+    color: #6dc796;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header > nav > a:hover {
+    background-color: #6dc796;
+    color: #06391d;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+main {
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.101);
+}
+
+main > section > h2 {
+    font-family: 'android';
+    color: #06391d;
+    font-weight: normal;
+    padding: 10px;
+    margin: 10px;
+}
+
+main > section > h3 {
+    font-family: 'android';
+    color: #06391d;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #86d1a8, rgba(255, 255, 255, 0));
+    padding-left: 10px;
+    margin: 20px;
+}
+
+main > section > p {
+    margin: 20px;
+}
+
+.destaque {
+    color: #0a562d;
+    font-weight: bold;
+}
+
+main > section > p > a {
+    background-color: #b2d6c2;
+    color: #07391d;
+    text-decoration: none;
+    padding: 2px;
+}
+
+main > section > p > a:hover {
+    text-decoration: underline;
+}
+
+section.extra {
+    background-color: #6dcfb899;
+    border-radius: 10px;
+    margin: 20px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.101);
+}
+
+section.extra > ul {
+    columns: 2;
+}
+
+section.extra > h2 {
+    background-color: #06391d;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.3em;
+    margin: 0px;
+}
+
+section.extra > p {
+    padding: 10px;
+}
+
+section.extra > p > a {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: #06391d;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.destaquen {
+    font-weight: bold;
+}
+
+.img_p {
+    max-width: 350px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <style>
+        div > p {
+            display: none;
+        }
+
+        div {
+            display: inline-block;
+            text-align: center;
+            box-shadow: 2px 2px 2px rgba(118, 118, 118, 0.4);
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            border: 1px solid black;
+        }
+
+        div:hover {
+            background-color: chocolate;
+            color: rgb(255, 255, 255);
+        }
+
+        div:hover > p {
+            display:list-item;
+        }
+
+        div:active {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <div>01
+        <p>Teste</p>
+    </div>
+    <div>02</div>
+    <div>03</div>
+</body>
+</html>
