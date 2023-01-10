@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            max-width: 700px;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 3px;
+        }
+
+        tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        .centro {
+            text-align: center;
+        }
+
+        .esquerda {
+            text-align: right;
+        }
+
+        tfoot, thead {
+            background-color: rgb(63, 63, 63);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(63, 63, 63);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabalhas Grandes</h1>
+    <table>
+        <caption>Lista de unidades federativas do Brasil</caption>
+        <thead class="centro">
+            <tr>
+                <th scope="col">Posição</td>
+                <th scope="col">Unidade Federativa</td>
+                <th scope="col">Área</td>
+                <th scope="col">% do Brasil</td>
+                <th scope="col">País Comparável</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="centro">1</td>
+                <td>Amazonas</td>
+                <td class="esquerda">1 559 167,889</td>
+                <td class="centro">18,321</td>
+                <td class="centro">Mongólia</td>
+            </tr>
+            <tr>
+                <td class="centro">2</td>
+                <td>Pará</td>
+                <td class="esquerda">1 245 870,798</td>
+                <td class="centro">14,64</td>
+                <td class="centro">Angola</td>
+            </tr>
+            <tr>
+                <td class="centro">3</td>
+                <td>Mato Grosso</td>
+                <td class="esquerda">903 207,019</td>
+                <td class="centro">10,613</td>
+                <td class="centro">Venezuela</td>
+            </tr>
+            <tr>
+                <td class="centro">4</td>
+                <td>Minas Geraus</td>
+                <td class="esquerda">586 521,123</td>
+                <td class="centro">6,892</td>
+                <td class="centro">Madagascar</td>
+            </tr>
+            <tr>
+                <td class="centro">4</td>
+                <td>Minas Geraus</td>
+                <td class="esquerda">586 521,123</td>
+                <td class="centro">6,892</td>
+                <td class="centro">Madagascar</td>
+            </tr>
+            <tr>
+                <td class="centro">4</td>
+                <td>Minas Geraus</td>
+                <td class="esquerda">586 521,123</td>
+                <td class="centro">6,892</td>
+                <td class="centro">Madagascar</td>
+            </tr>
+            <tr>
+                <td class="centro">4</td>
+                <td>Minas Geraus</td>
+                <td class="esquerda">586 521,123</td>
+                <td class="centro">6,892</td>
+                <td class="centro">Madagascar</td>
+            </tr>
+            <tr>
+                <td class="centro">4</td>
+                <td>Minas Geraus</td>
+                <td class="esquerda">586 521,123</td>
+                <td class="centro">6,892</td>
+                <td class="centro">Madagascar</td>
+            </tr>
+            <tr>
+                <td class="centro">4</td>
+                <td>Minas Geraus</td>
+                <td class="esquerda">586 521,123</td>
+                <td class="centro">6,892</td>
+                <td class="centro">Madagascar</td>
+            </tr>
+            <tr>
+                <td class="centro">4</td>
+                <td>Minas Geraus</td>
+                <td class="esquerda">586 521,123</td>
+                <td class="centro">6,892</td>
+                <td class="centro">Madagascar</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th class="centro" scope="row">Total</td>
+                <td class="centro">-</td>
+                <td class="esquerda">0000</td>
+                <td class="centro">000</td>
+                <td class="centro">-</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam adipisci cupiditate dolorem nam, dignissimos perferendis nemo, rem eligendi sit at iure assumenda inventore labore autem libero, minima ratione iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse incidunt eaque suscipit impedit repudiandae non tempora soluta corrupti nesciunt aut vitae in magnam, iste quas enim perspiciatis cum quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officia iure unde veritatis minima aspernatur provident dolorem laboriosam eum ad, perspiciatis beatae quam quod! Molestiae reprehenderit aspernatur eos totam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium delectus enim quas provident autem dolorum repellendus voluptatem aliquid harum. Minus saepe ducimus quos pariatur soluta. Itaque enim deleniti fugit!</p>
+</body>
+</html>
