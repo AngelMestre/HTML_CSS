@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    position: relative;
+    background-color: #5F2C82;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 250px;
+    height: 500px;
+
+    display: block;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.578);
+    border-radius: 20px;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
+
+div#img {
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+    background: black url(../imagens/metal.jpg) left bottom no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+div#form {
+    display: block;
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+p {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7em;
+    max-width: 250px;
+    margin: auto;
+}
+
+div#email, div#pass {
+    display: block;
+    background-color: #5F2C82;
+    padding: 3px;
+    border-radius: 5px;
+    width: 215px;
+    margin: 3px auto;
+}
+
+span {
+    color: white;
+    display: block;
+    margin: auto;
+    font-size: 2em;
+}
+
+input.insert {
+    width: 180px;
+    height: 3em;
+    background-color: #94CFCD;
+    border-radius: 5px;
+    border: none;
+}
+
+input#entrar {
+    background-color: #42908d;
+    width: 215px;
+    height: 3em;
+    border: 1px #4ca8a3 solid;
+    border-radius: 5px;
+    color: white;
+    margin: 3px auto;
+}
+
+input#esqueci {
+    background-color: #ffffff;
+    width: 215px;
+    height: 3em;
+    border: 1px #4ca8a3 solid;
+    border-radius: 5px;
+    margin: 3px auto;
+    color: #505050;
+}
+
+input#entrar:hover {
+    background-color: #275352;
+}
+
+input#esqueci:hover {
+    background-color: #6CD3CF;
+}
